@@ -1,0 +1,5 @@
+<view>
+  <text>i am detail</text>
+  <navigator url='/pages/home/home'>回到首页</navigator>
+
+</view>

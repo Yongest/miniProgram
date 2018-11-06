@@ -36,7 +36,17 @@ App({
    * 当小程序启动，或从后台进入前台显示，会触发 onShow
    */
   onShow: function (options) {
+    // wx.openCard({
+    //   success(res){
+    //       console.log(res)
+    //   }
+    // })
     console.log('我显示了')
+    wx.getWeRunData({
+      success(res){
+        console.log(res)
+      }
+    })
   },
 
   /**

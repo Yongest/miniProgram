@@ -2,4 +2,5 @@
   <text>i am detail</text>
   <navigator url='/pages/home/home'>回到首页</navigator>
 
+  <button bindtap='setting'>设置</button>
 </view>

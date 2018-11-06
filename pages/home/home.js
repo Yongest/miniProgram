@@ -10,4 +10,14 @@ Page({
     interval: 5000,
     duration: 1000
   },
+  onLoad(){
+    wx.showShareMenu({
+      withShareTicket: true
+    })
+    wx.getSystemInfo({
+      success(err){
+          console.log(err)
+      }
+    })
+  }
 })

@@ -1,13 +1,12 @@
- /**
-   * 对小程序进行初始化
-   */
+// 引入mock数据
+require("mock/mock_index_data.js");
 App({
 
   /**
    * 当小程序初始化完成时，会触发 onLaunch（全局只触发一次）
    */
   onLaunch: function () {
-    
+      
   },
 
   /**

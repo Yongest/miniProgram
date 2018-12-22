@@ -1,6 +1,9 @@
 <view>
   <text>i am detail</text>
-  <navigator url='/pages/home/home'>回到首页</navigator>
+  <navigator open-type='switchTab' url='/pages/index/index'>回到首页</navigator>
 
-  <button bindtap='setting'>设置</button>
+
+  <button bindtap='setting'>bindtap 打电话</button>
 </view>
+
+<test msg='我是传给组件的数据'>我是插槽的数据</test>

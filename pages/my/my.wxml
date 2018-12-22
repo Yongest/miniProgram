@@ -1,0 +1,5 @@
+<view>
+   {{msg}}
+   <view wx:if="{{num>1}}">wx:if="{{num>1}}"</view>
+   <navigator open-type='navigate' url='/pages/detail/detail'>导航跳转到自己或其他小程序</navigator>
+</view>

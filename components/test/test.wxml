@@ -1,0 +1,13 @@
+<!--components/test/test.wxml-->
+<view>
+<view>
+1.我是组件内的数据
+</view>
+<view>
+2.{{msg}}
+</view>
+<!-- 插槽 -->
+<view>
+3.<slot></slot>
+</view>
+</view>

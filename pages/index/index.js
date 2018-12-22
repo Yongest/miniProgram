@@ -191,6 +191,16 @@ Page({
       }
     })
   },
+  // 获取猜你喜欢
+  getGuessArr2(latitude, longitude) {
+    let page = this;
+    // 发送请求获取数据 
+    wx.request({
+      url: "http://api.meituan.com/index/like2",
+      success(res) {
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -200,7 +210,8 @@ Page({
     this.getNavArr();
     this.getBookArr();
     this.getAdvArr();
-    
+    // 监听错误
+    this.getGuessArr2();
 
   },
 
